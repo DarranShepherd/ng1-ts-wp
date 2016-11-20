@@ -1,6 +1,8 @@
 ﻿import "angular";
 
-angular.module("app.shell", []);
+import foo from "../../../../../AngularLibrary/src/foo";
+
+angular.module("app.shell", [foo]);
 
 import "./app.component"
 
